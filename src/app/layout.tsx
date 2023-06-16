@@ -10,7 +10,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  const activeChainId = ChainId.BinanceSmartChainTestnet
+  const activeChainId = ChainId.BinanceSmartChainMainnet
   return (
     <html lang="en" data-theme="emerald">
       <head>

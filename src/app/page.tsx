@@ -13,9 +13,9 @@ import AdminCard from "@/components/adminCard"
 
 export default function Home() {
   const address = useAddress()
-  const stakeAddress = "0x0653e9BD8DBD8b33FA0a46430370524f617092ba"
-  const pwxAddress = "0xea9579a69EbD08217926B364E8c8de513FDf8E23"
-  const usdtAddress = "0x7c19bC82119F535Ee18b759aAE81d4b5D95E4d3d"
+  const stakeAddress = "0x17Cd03765b6e25addbd4f2831C3579243be79497"
+  const pwxAddress = "0xc177EDdD8Df2cFd9B244E839a47c04cBf45a852B"
+  const usdtAddress = "0x55d398326f99059fF775485246999027B3197955"
 
   const { data: stakeContract } = useContract(stakeAddress)
   const { data: stakesLength } = useContractRead(

@@ -41,7 +41,6 @@ export default function DataCard({
               })}
             </div>
           </div>
-
           <div className="stat">
             <div className="stat-title">USDT Staked</div>
             <div className="stat-value">

@@ -70,12 +70,14 @@ export default function CalculatorCard({
       >
         Calculate Reward
       </Web3Button>
-      <div className="stat">
-        <div className="stat-title">Total Reward</div>
-        <div className="stat-value">
-          {`${millify(parseFloat(reward) ?? 0, {
-            precision: 2,
-          })} ${parseInt(formState.tier) % 2 == 0 ? "PWX" : "USDT"}`}
+      <div className="stats">
+        <div className="stat">
+          <div className="stat-title">Total Reward</div>
+          <div className="stat-value">
+            {`${millify(parseFloat(reward) ?? 0, {
+              precision: 2,
+            })} ${parseInt(formState.tier) % 2 == 0 ? "PWX" : "USDT"}`}
+          </div>
         </div>
       </div>
     </div>
