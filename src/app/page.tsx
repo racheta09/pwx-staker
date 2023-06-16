@@ -26,7 +26,7 @@ export default function Home() {
   const { data: owner } = useContractRead(stakeContract, "owner")
 
   return (
-    <div className="w-full">
+    <div className="w-full text-slate-600">
       <nav className="navbar bg-primary text-primary-content">
         <a className="btn btn-ghost normal-case text-xl">PWX Stake</a>
       </nav>

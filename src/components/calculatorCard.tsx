@@ -19,7 +19,7 @@ export default function CalculatorCard({
   const [reward, setReward] = useState("0")
 
   return (
-    <div className="card bg-base-100 shadow-xl gap-4">
+    <div className="card bg-base-100 shadow-xl gap-4 p-4">
       <div className="card-body">
         <h2 className="card-title">Staking Calculator</h2>
       </div>

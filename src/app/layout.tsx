@@ -12,7 +12,7 @@ export default function RootLayout({
 }) {
   const activeChainId = ChainId.BinanceSmartChainTestnet
   return (
-    <html lang="en" data-theme="dark">
+    <html lang="en" data-theme="emerald">
       <head>
         <title>Pocket Wallet Stakking Dapp</title>
       </head>
